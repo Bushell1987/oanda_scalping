@@ -1,0 +1,18 @@
+environment: "test"  # Options: "live" or "test"
+colors:
+  live: "green"
+  test: "orange"
+oanda:
+  live:
+    api_url: "https://api-fxtrade.oanda.com/v3"
+    api_key: ""
+    account_id: ""
+  test:
+    api_url: "https://api-fxpractice.oanda.com/v3"
+    api_key: ""
+    account_id: ""
+trade_settings:
+  sl_pips: 3
+  tp_pips: 36
+  default_instrument: "EUR_USD"
+  risk_per_trade_percent: "0.25"
